@@ -1,0 +1,14 @@
+---
+import SocialPhill from './ui/SocialPhill.astro'
+import LinkedInIcon from './icons/LinkedIn.astro'
+import GitHubIcon from './icons/GitHub.astro'
+---
+
+<nav class=`${Astro.props.class}`>
+   <SocialPhill href="https://linkedin.com/in/victor-araya-dev" aria-label="linkedin">
+      <LinkedInIcon class="size-5 lg:size-6" />
+   </SocialPhill>
+   <SocialPhill href="https://github.com/varayac" aria-label="github">
+      <GitHubIcon class="size-5 lg:size-6" />
+   </SocialPhill>
+</nav>
